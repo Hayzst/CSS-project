@@ -1,0 +1,93 @@
+body{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+}
+a{
+    text-decoration: none;
+
+}
+h1, p{
+    margin: 0;
+    padding: 0;
+}
+.header, .intro, a{
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.intro{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+.introimage{
+    width: 500px;
+    height: 150px;
+    border: solid 2px black;
+}
+.introimage img{
+    width: 500px;
+    height: 150px;
+}
+/* .middlecontent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+.middlecontent h1{
+    text-align: center;
+}
+.fourimage{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}.fourimage div{
+    height: 150px;
+    width: 100px;
+}
+.fourimage div img{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+}.qoute{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+    margin: 0 auto;
+}.qoute p{
+    align-self: center;
+}.qoute span{
+    align-self: end;
+}.sign-up{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}.sign-up .container{
+    display: flex;
+    height: 100px;
+    width: 1000px;
+    margin:0 100px;
+    padding: 30px 100px;
+    justify-content: space-between;
+    align-items: center;
+    gap: ;
+    background-color: blue;
+    border-radius: 10px;
+    color: aliceblue;
+}button{
+    height: 20px;
+}
