@@ -1,5 +1,4 @@
 body{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     display: flex;
     flex-direction: column;
     height: 100em;
@@ -43,7 +42,7 @@ h1, p{
 }
 .header h1{
     font-size: 24px;
-    font-weight: bolder;
+    font-weight: bold;
     margin-right: 420px;
 }
 .header ul, .intro1 p{
@@ -52,7 +51,7 @@ h1, p{
 }
 .intro1 h1{
     font-size: 48px;    
-    font-weight: bolder;
+    font-weight: 800;
     margin-bottom: 15px;
 }
 .intro1 p{
@@ -145,7 +144,7 @@ h1, p{
 .qoute .paragraph .by{
     margin-left: 60px;
     font-size: 22px;
-    font-weight: 800;
+    font-weight: bold  ;
 }
 .sign-up{
     display: flex;
